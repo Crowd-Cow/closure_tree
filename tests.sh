@@ -1,6 +1,6 @@
 #!/bin/sh -ex
 
-for RMI in 2.3.1 #jruby-1.6.13 :P
+for RMI in 2.5.1 #jruby-1.6.13 :P
 do
   rbenv local $RMI
   appraisal bundle install
